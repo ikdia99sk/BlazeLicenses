@@ -1,3 +1,5 @@
+require("node:dns/promises").setServers(["1.1.1.1", "8.8.8.8"]);
+
 const { glob } = require("glob");
 const { promisify } = require("util");
 const mongoose = require("mongoose");

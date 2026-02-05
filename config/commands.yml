@@ -1,9 +1,70 @@
+# ============================
+#   MALASIA SERVICES COMMANDS
+# ============================
+
+# -------- PERMISSIONS --------
 PERMISSIONS:
-  LICENSE:
-    - "License"
-  PRODUCT:
+  ADD_STOCK:
     - "Owner"
-  BLACKLIST:
+  GIVE_PRODUCT:
     - "Owner"
-  SELF_LICENSES:
-    - "Customer"
+  STOCK:
+    - "verified"
+  REMOVE_PRODUCT:
+    - "Owner"
+  REMOVE_STOCK:
+    - "Owner"
+  PRODUCT_LIST:
+    - "verified"
+  PUBLIC:
+    - "@everyone"
+
+# -------- Productos / Stock --------
+stock:
+  enabled: true
+  category: products
+  permission: PUBLIC
+  cooldown: 3
+
+addstock:
+  enabled: true
+  category: products
+  permission: ADD_STOCK
+  cooldown: 3
+
+removestock:
+  enabled: true
+  category: products
+  permission: REMOVE_STOCK
+  cooldown: 3
+
+setstock:
+  enabled: true
+  category: products
+  permission: PRODUCT
+  cooldown: 3
+
+product-create:
+  enabled: true
+  category: products
+  permission: PRODUCT
+  cooldown: 3
+
+product-list:
+  enabled: true
+  category: products
+  permission: PUBLIC
+  cooldown: 2
+
+give-product:
+  enabled: true
+  category: products
+  permission: GIVE_PRODUCT
+  cooldown: 3
+
+remove-product:
+  enabled: true
+  category: products
+  permission: REMOVE_PRODUCT
+  cooldown: 3
+

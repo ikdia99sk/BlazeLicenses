@@ -14,16 +14,16 @@
         "node": ">=16.0.0"
     },
     "devDependencies": {
-        "nodemon": "2.0.15"
+        "nodemon": "^3.1.11"
     },
     "dependencies": {
         "body-parser": "^1.19.1",
         "chalk": "4.1.2",
-        "discord.js": "13.6.0",
+        "discord.js": "^13.17.1",
         "express": "^4.17.2",
         "glob": "7.2.0",
-        "js-yaml": "4.1.0",
-        "mongoose": "6.4.6",
+        "js-yaml": "^4.1.1",
+        "mongoose": "^6.13.9",
         "table": "6.8.0"
     }
 }
