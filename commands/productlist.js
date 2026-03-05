@@ -1,5 +1,5 @@
 const { MessageEmbed } = require("discord.js");
-const { precios } = require("../prices.js"); // Asegúrate de que prices.js esté en la raíz
+const { precios } = require("../prices.js"); 
 
 module.exports = {
     name: "productlist",
@@ -8,7 +8,7 @@ module.exports = {
 
     run: async (client, interaction) => {
 
-        // Sustituye este array por tus productos reales si los cargas desde DB
+        
         const productos = [
             { nombre: "TikTok 1k Follow UHQ", stock: 10 },
             { nombre: "TikTok 1k Follow LQ", stock: 20 },
